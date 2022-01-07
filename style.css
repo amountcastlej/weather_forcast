@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: rgb(159,197,248)
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.nav-title {
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* End of Navbar */
+
+/* Main */
+
+.container {
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top-content {
+    align-items: center;
+    border-bottom: 2px solid black;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.top-content label {
+    margin-left: 680px;
+}
+
+.top-content label, select {
+    padding: 5px;
+}
+
+.top-content select {
+    width: 60px;
+}
+
+.weather{
+    display: flex;
+}
+
+.forecast{
+    flex: 1;
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px 30px;
+    margin-right: 25px;
+}
+
+.weather-img {
+    border-radius: 50%;
+    width: 170px;
+    margin: 30px 0 10px 1px;
+}
+
+.temps {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.high, .low {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 22px;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.footer {
+    /* border: 3px solid red; */
+    width: 1000px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.cookies {
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.info {
+    width: 70%;
+}
+
+#title {
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+#btn {
+    background-color: rgb(159,197,248);
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
+    font-size: 20px;
+    padding: 10px 18px;
+}
